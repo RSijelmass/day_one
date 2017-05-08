@@ -15,3 +15,7 @@ def sum_array(array)
   array.each{ |x| sum += x}
   sum
 end
+
+def sum_twice(array)
+  sum_array(array)*2
+end

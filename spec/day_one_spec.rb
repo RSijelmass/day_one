@@ -13,4 +13,7 @@ describe 'day_one' do
   it 'adds all values of the array' do
     expect(sum_array([1,2,3,4,5])).to eq 15
   end
+  it 'returns the sum of an array times two' do
+    expect(sum_twice([1,2,3,4,5])).to eq 30
+  end
 end

@@ -9,3 +9,9 @@ end
 def sort_add(array)
   adds_one(sort_array(array))
 end
+
+def sum_array(array)
+  sum = 0
+  array.each{ |x| sum += x}
+  sum
+end

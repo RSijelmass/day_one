@@ -23,3 +23,12 @@ end
 def adds_one_hash(hash)
   hash.map{ |key,value| [key, value + 1]}.to_h
 end
+
+def sort_hash(hash)
+  arr = []
+  keys = hash.keys;   values = hash.values.sort
+  for i in 0...keys.length
+    arr[i] = [keys[i], values[i]]
+  end
+  arr.to_h
+end

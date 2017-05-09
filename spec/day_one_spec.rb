@@ -22,4 +22,7 @@ describe 'day_one' do
   it 'sorts the values in a hash' do
     expect(sort_hash({ a: 2, b: 5, c: 1 })).to eq ({a: 1, b:2, c: 5})
   end
+  it 'gives values of hash in a sorted array' do
+    expect(sort_values({ a: 2, b: 5, c: 1 })).to eq [1,2,5]
+  end
 end

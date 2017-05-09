@@ -32,3 +32,7 @@ def sort_hash(hash)
   end
   arr.to_h
 end
+
+def sort_values(hash)
+  hash.values.sort
+end

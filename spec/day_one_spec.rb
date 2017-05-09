@@ -16,4 +16,6 @@ describe 'day_one' do
   it 'returns the sum of an array times two' do
     expect(sum_twice([1,2,3,4,5])).to eq 30
   end
-end
+  it 'adds 1 to each value in a hash' do
+    expect(adds_one_hash({ a: 1, b: 2 })).to eq ({a: 2, b: 3})
+  end
